@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(0, 8, 164);
+    color: rgb(255, 255, 255);
+    /* text-shadow: 0px 0px 20px black;*/
+    background-size: 100%;
+} 
+
+nav{
+    animation: animationnav 8s;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+@keyframes animationnav{
+    from{box-shadow: -4px 3px 15px rgb(255, 255, 255);}
+    to{box-shadow: -4px 3px 15px red;}
+}
+
+fieldset{
+    border: 5px solid rgb(255, 255, 255);
+    background-color: rgb(255, 225, 0);
+    color: rgb(255, 0, 0);
+    width: 30%;
+    height: 690px;
+    -webkit-text-stroke-width: 1px;
+    border-radius: 12px;
+
+    animation: 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+fieldset{    border-radius: 20px;
+
+    animation: animation 5s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes animation{
+    from{box-shadow: 0px 0px 15px red;}
+    to{box-shadow: 0px 0px 15px rgb(1, 98, 255);}
+
+
+}
+
+h5 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
